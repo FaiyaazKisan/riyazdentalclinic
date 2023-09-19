@@ -1,0 +1,45 @@
+.sky-neon {
+  -webkit-transition: .3s all ease-in;
+  transition: .3s all ease-in;
+  border: 2px solid transparent;
+  -webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+  box-shadow: 0px 0px 30px 20px #3cc6d8;
+  -webkit-animation: breathing 1s infinite;
+  animation: breathing 1s infinite;
+}
+
+.sky-neon1 {
+  -webkit-transition: .3s all ease-in;
+  transition: .3s all ease-in;
+  border: 2px solid transparent;
+  -webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+  box-shadow: 0px 0px 30px 20px #3cc6d8;
+  -webkit-animation: breathing1 1s infinite;
+  animation: breathing1 1s infinite;
+}
+
+/* Animation for Breath Button */
+@-webkit-keyframes breathing {
+  0% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;background-color: #000080;}
+  50% {-webkit-box-shadow: 0px 0px 30px 20px #45ffee;box-shadow: 0px 0px 30px 20px #45ffee;background-color: #0099ff;}
+  100% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;background-color: #000080;}
+}
+
+@keyframes breathing {
+  0% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;background-color: #000080;}
+  50% {-webkit-box-shadow: 0px 0px 30px 20px #45ffee;box-shadow: 0px 0px 30px 10px #45ffee;background-color: #0099ff;}
+  100% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;background-color:#000080;}
+}
+
+/* Animation for Breath Button */
+@-webkit-keyframes breathing1 {
+  0% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;}
+  50% {-webkit-box-shadow: 0px 0px 30px 20px #45ffee;box-shadow: 0px 0px 30px 20px #45ffee;}
+  100% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;}
+}
+
+@keyframes breathing1 {
+  0% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;}
+  50% {-webkit-box-shadow: 0px 0px 30px 20px #45ffee;box-shadow: 0px 0px 30px 10px #45ffee;}
+  100% {-webkit-box-shadow: 0px 0px 10px 0px #45ffee;box-shadow: 0px 0px 10px 0px #45ffee;}
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width:999px){
+    #navbarSupportedContent{
+        transition: all 0.5s;
+    }
+}
